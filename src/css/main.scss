@@ -1,5 +1,53 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #000;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    .sidebar__logo {
+        width: 100%;
+        height: 60px;
+        padding: .5rem 1rem;
+        text-align: center;
+        img {
+            max-width: 50%;
+            height: 100%;
+        }
+    }
+
+    .sidebar__menu {
+        width: 100%;
+        background-color: rgb(247, 247, 247);
+        height: 400px;
+    }
+}
+
+.main-content {
+    height: 100%;
+    width: calc(100vw - 267px);
+    float: right;
+    .toolbox {
+        height: 60px;
+        background-color: #000;
+        color: #fff;
+    }
+    
+    main {
+        background-color: rgb(93, 93, 207);
+    }
+}
+
