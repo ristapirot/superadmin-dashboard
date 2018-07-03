@@ -13,11 +13,15 @@
     flex-direction: column;
 }
 
+.wrapper {
+    justify-content: space-between;
+}
+
 .sidebar {
     height: 100%;
     width: 260px;
-    position: fixed;
     background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px 0px rgb(231, 231, 231);
     .sidebar__logo {
         width: 100%;
         height: 60px;
@@ -39,7 +43,6 @@
 .main-content {
     height: 100%;
     width: calc(100vw - 267px);
-    float: right;
     .toolbox {
         height: 60px;
         background-color: #000;
