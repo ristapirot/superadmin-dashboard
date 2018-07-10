@@ -1,0 +1,34 @@
+.sidebar__element {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.toolbox__user {
+    line-height: 24px;
+    .toolbox__user-text {
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.toolbox__list {
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+
+    .list-title {
+        font-size: 12px;
+    }
+}
+
+.red {
+    color: #e43a45;
+}
+
+.yellow {
+    color: #fa0;
+}
+
+.green {
+    color: #0aa89e;
+}
